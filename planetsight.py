@@ -1,7 +1,6 @@
 # courtesy of saikuru0
 
 import requests
-import json
 
 c_green = '\033[92m'
 c_yellow = '\033[93m'
