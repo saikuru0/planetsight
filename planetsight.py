@@ -57,3 +57,4 @@ for item in sorted_ppl:
 	status = c_green if item['ppl'] > limits['med'] else c_yellow if item['ppl'] > limits['low'] else c_red
 	print(f"{c_bold}{item['world']}{c_reset}: {status}{item['ppl']}{c_reset} ({c_purple}{item['vs']} VS{c_reset}, {c_blue}{item['nc']} NC{c_reset}, {c_red}{item['tr']} TR{c_reset}, {c_white}{item['ns']} NSO{c_reset})")
 print("=" * 50)
+input()
